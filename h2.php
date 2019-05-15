@@ -23,7 +23,7 @@ function rahanpalautus($raha, $summa){
     }
 }
 
-if(isset($_GET['raha']) && $_GET['summa']){
+if(isset($_GET['raha'], $_GET['summa'])){
    $raha = $_GET['raha'];
    $summa = $_GET['summa'];
    echo rahanpalautus($raha, $summa);
