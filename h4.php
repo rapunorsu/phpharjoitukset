@@ -17,9 +17,9 @@ if(isset($_GET['luku'])){
     $luku = $_GET['luku'];
     $number = rand(1,10);
     if ($number== $luku) {
-        echo "LUVUT ON SAMAT JEE!! lukusi oli $luku ja arvottu $number.";
+        echo "LUVUT ON SAMAT JEE!! lukusi oli $luku ja arvottu luku oli $number.";
     } else {
-        echo "ei osunut :(( ):: lukusi oli $luku ja arvottu $number.";
+        echo "ei osunut :(( ):: lukusi oli $luku ja arvottu luku oli $number.";
     }
 }
 ?>
