@@ -5,6 +5,10 @@ h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+h2 {
+    text-align: center;
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -34,4 +38,10 @@ text {
 
 ul {
     list-style-type: none;
+}
+
+.bullet {
+    list-style: circle;
+   align-content: center;
+   list-style-position: inside;
 }
