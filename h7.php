@@ -3,7 +3,7 @@
 <div class="content">
 <br>
 
-<h2>Harjoitus 7</h2>
+<h2>Harjoitus 7 (Harjoitukset 4/tehtävä2)</h2>
 
 <?php 
 $task = [
